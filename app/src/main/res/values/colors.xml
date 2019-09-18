@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal_500</color>
+    <color name="colorPrimaryDark">@color/teal_800</color>
+    <color name="colorAccent">#D12C26</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_800">#00695C</color>
+</resources>

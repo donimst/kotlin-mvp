@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recView_last" type="id"/>
+    <item name="recView_next" type="id"/>
+    <item name="recView_favMatch" type="id"/>
+    <item name="recView_favTeam" type="id"/>
+    <item name="recView_result" type="id"/>
+    <item name="refresh_favMatch" type="id"/>
+    <item name="refresh_favTeam" type="id"/>
+    <item name="empty_text" type="id"/>
+    <item name="recView_team" type="id"/>
+    <item name="recView_player" type="id"/>
+</resources>

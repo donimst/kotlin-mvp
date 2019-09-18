@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/cvPlayerName" app:cardCornerRadius="5dp"
+            android:layout_margin="2dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/tvPlayerName" android:padding="8dp"
+                android:gravity="center" android:textStyle="bold" android:textSize="18sp"
+                android:textColor="@color/colorPrimary"/>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:columnCount="2">
+
+        <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:cardCornerRadius="5dp" android:layout_margin="2dp">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:padding="16dp"
+            >
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView" android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="8dp" android:tint="@color/colorPrimaryDark"
+                        android:src="@drawable/ic_height_128"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/tvPlayerHeight"
+                        android:layout_gravity="center_horizontal" android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                android:id="@+id/cardView" app:cardCornerRadius="5dp"
+                android:layout_margin="2dp">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:padding="16dp">
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView2" android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ic_weight_128" android:tint="@color/colorPrimaryDark"
+                        android:layout_marginBottom="8dp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/tvPlayerWeight"
+                        android:layout_gravity="center_horizontal" android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:cardCornerRadius="5dp"
+            android:layout_margin="2dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/tvPlayerDesc" android:padding="8dp"
+                android:textStyle="bold"/>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">KADE Football</string>
+    <string name="vs">VS</string>
+    <string name="match">Pertandingan</string>
+    <string name="teams">Tim</string>
+    <string name="fav">Favorit</string>
+    <string name="add_fav">Tambah ke Favorit</string>
+    <string name="empty">Tidak ada data yang tersedia</string>
+    <string name="last_match">Pertandingan Terakhir</string>
+    <string name="next_match">Pertandingan Berikutnya</string>
+    <string name="info">Informasi</string>
+    <string name="lineup">Daftar Pemain</string>
+    <string name="shot">Tendangan</string>
+    <string name="goals">Gol</string>
+    <string name="yellow_c">Kartu Kuning</string>
+    <string name="red_c">Kartu Merah</string>
+    <string name="gk">GK</string>
+    <string name="df">DF</string>
+    <string name="mf">MF</string>
+    <string name="fw">FW</string>
+    <string name="subs">Subs</string>
+    <string name="select_league">Pilih Liga</string>
+    
+    <string name="team_name">Nama Tim</string>
+    <string name="team_manager">Manajer</string>
+    <string name="team_stadium">Stadium</string>
+    <string name="team_formed">Tahun Dibentuk</string>
+    <string name="team_ovw">Deskripsi Tim</string>
+
+    <string name="overview">Overview</string>
+    <string name="players">Pemain</string>
+
+    <string name="search">Cari</string>
+</resources>

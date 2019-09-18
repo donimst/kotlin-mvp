@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">KADE Football</string>
+    <string name="vs">VS</string>
+    <string name="match">Matches</string>
+    <string name="teams">Teams</string>
+    <string name="fav">Favourites</string>
+    <string name="add_fav">Add to Favourites</string>
+    <string name="empty">There is no data available</string>
+    <string name="last_match">Last Match</string>
+    <string name="next_match">Next Match</string>
+    <string name="info">Information</string>
+    <string name="lineup">Line Up</string>
+    <string name="shot">Shots</string>
+    <string name="goals">Goals</string>
+    <string name="yellow_c">Yellow Cards</string>
+    <string name="red_c">Red Cards</string>
+    <string name="gk">GK</string>
+    <string name="df">DF</string>
+    <string name="mf">MF</string>
+    <string name="fw">FW</string>
+    <string name="subs">Subs</string>
+    <string name="select_league">Select League</string>
+
+    <string name="team_name">Team Name</string>
+    <string name="team_manager">Manager</string>
+    <string name="team_stadium">Stadium</string>
+    <string name="team_formed">Formed Year</string>
+    <string name="team_ovw">Team Description</string>
+
+    <string name="overview">Overview</string>
+    <string name="players">Player</string>
+
+    <string name="search">Search</string>
+</resources>
